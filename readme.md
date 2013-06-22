@@ -39,7 +39,7 @@ Or alternatively installing the client and server packages as it suits:
 ```
 
 ### Note
-* You may also install this packages by right-clicking the project in *Visual Studio* and selecting the option *Manage Nuget Packages..* .
+* You may also install this packages by right-clicking the project in *Visual Studio* and selecting the option *Manage Nuget Packages..*
 
 Getting Started
 ---------------
