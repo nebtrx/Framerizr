@@ -9,10 +9,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BFB0E1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget-specs", "nuget-specs", "{431F2600-6740-4676-8688-EAE13A5B8C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framerizr.MVC.Server", "Framerizr.MVC.Server", "{DDF77F41-06B4-4618-A828-495F1BDB67EC}"
 	ProjectSection(SolutionItems) = preProject
-		nuget-specs\Framerizr.Client.nuspec = nuget-specs\Framerizr.Client.nuspec
-		nuget-specs\Framerizr.MVC.nuspec = nuget-specs\Framerizr.MVC.nuspec
-		nuget-specs\Framerizr.MVC.Server.nuspec = nuget-specs\Framerizr.MVC.Server.nuspec
+		nuget-specs\Framerizr.MVC.Server\Framerizr.MVC.Server.nuspec = nuget-specs\Framerizr.MVC.Server\Framerizr.MVC.Server.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framerizr.Client", "Framerizr.Client", "{E3F720FB-2058-43A3-9622-C4BCD2E64B59}"
+	ProjectSection(SolutionItems) = preProject
+		nuget-specs\Framerizr.Client\Framerizr.Client.nuspec = nuget-specs\Framerizr.Client\Framerizr.Client.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framerizr.MVC", "Framerizr.MVC", "{B2957B10-E477-4AED-925A-68107C30393C}"
+	ProjectSection(SolutionItems) = preProject
+		nuget-specs\Framerizr.MVC\Framerizr.MVC.nuspec = nuget-specs\Framerizr.MVC\Framerizr.MVC.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{934A4B58-D13A-4AE6-AA54-104948B91281}"
+	ProjectSection(SolutionItems) = preProject
+		nuget-specs\Framerizr.MVC\content\README.txt = nuget-specs\Framerizr.MVC\content\README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{FF7A3878-7EC3-41BF-9736-678B856874AD}"
+	ProjectSection(SolutionItems) = preProject
+		nuget-specs\Framerizr.MVC\tools\install.ps1 = nuget-specs\Framerizr.MVC\tools\install.ps1
 	EndProjectSection
 EndProject
 Global
@@ -28,5 +48,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDF77F41-06B4-4618-A828-495F1BDB67EC} = {431F2600-6740-4676-8688-EAE13A5B8C6B}
+		{E3F720FB-2058-43A3-9622-C4BCD2E64B59} = {431F2600-6740-4676-8688-EAE13A5B8C6B}
+		{B2957B10-E477-4AED-925A-68107C30393C} = {431F2600-6740-4676-8688-EAE13A5B8C6B}
+		{934A4B58-D13A-4AE6-AA54-104948B91281} = {B2957B10-E477-4AED-925A-68107C30393C}
+		{FF7A3878-7EC3-41BF-9736-678B856874AD} = {B2957B10-E477-4AED-925A-68107C30393C}
 	EndGlobalSection
 EndGlobal

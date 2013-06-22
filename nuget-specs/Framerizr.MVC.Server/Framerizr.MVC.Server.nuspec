@@ -19,13 +19,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Framerizr\pre-processed\FramerizrController.cs.pp" target="content\Controllers\" />
-    <file src="..\Framerizr\pre-processed\Index.cshtml.pp" target="content\Views\Framerizr\" />
+    <file src="..\..\Framerizr\pre-processed\FramerizrController.cs.pp" target="content\Controllers\" />
+    <file src="..\..\Framerizr\pre-processed\Index.cshtml.pp" target="content\Views\Framerizr\" />
 
-    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.debug.js" target="content\Scripts\" />
-    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.min.js" target="content\Scripts\" />
-    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.js" target="content\Scripts\" />
-
-    <file src="..\Framerizr\Scripts\framerizr.server-1.0.0.js" target="content\Scripts\" />
+    <file src="..\..\Framerizr\Scripts\easyXDM\*" target="content\Scripts\" />
+    <file src="..\..\Framerizr\Scripts\framerizr\framerizr.server-1.0.0.js" target="content\Scripts\" />
   </files>
 </package>
