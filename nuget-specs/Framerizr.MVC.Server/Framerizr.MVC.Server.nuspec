@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Omar Ahmed García Pérez</authors>
     <owners>Omar Ahmed García Pérez</owners>
     <projectUrl>https://bitbucket.org/nebtrx/framerizr</projectUrl>
@@ -23,6 +23,6 @@
     <file src="..\..\Framerizr\pre-processed\Index.cshtml.pp" target="content\Views\Framerizr\" />
 
     <file src="..\..\Framerizr\Scripts\easyXDM\*" target="content\Scripts\" />
-    <file src="..\..\Framerizr\Scripts\framerizr\framerizr.server-1.0.0.js" target="content\Scripts\" />
+    <file src="..\..\Framerizr\Scripts\framerizr\framerizr.server-1.0.1.js" target="content\Scripts\" />
   </files>
 </package>
