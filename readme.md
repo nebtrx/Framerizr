@@ -44,20 +44,21 @@ Or alternatively installing the client and server packages as it suits:
 Getting Started
 ---------------
 
-Using Framerizr.MVC is easy once installed. You just have to add the following where you want to iframe an ASP.NET MVC Web Application empowered with Framerizr.
+Using Framerizr.MVC is easy once installed. You just have to specify the container where you want to iframe an ASP.NET MVC Web Application empowered with Framerizr, e.g.:
+
 
 ```html
 	<div data-iframe-src="http://example. domain.com/" ></div>
 ```
 
-Or alternatively you may specified a custom Framerizr URI. 
+Or alternatively you may specified a custom Framerizr URI, e.g.:
 
 ```html
 	<div data-iframe-src="http://example.domain.com/" data-framerizr-uri="http://other.route.com/OtherApp/Framerizr"></div>
 ```
 
 ### Note:
-* Check out the jQuery reference in `Views/Framerizr/Index.cshtml`. It's default set to jQuery v1.6.2 for surely you'll have another one installed, it's just Murphy's Law. 
+* It's strongly recomended to check the jQuery reference in `Views/Framerizr/Index.cshtml`. It's default set to jQuery v1.6.2 but surely you'll have another one installed, it's just Murphy's Law. 
 
 ```cshtml
 	<script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")"></script>
