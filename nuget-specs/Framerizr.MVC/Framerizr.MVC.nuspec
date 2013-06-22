@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Omar Ahmed García Pérez</authors>
     <owners>Omar Ahmed García Pérez</owners>
     <projectUrl>https://bitbucket.org/nebtrx/framerizr</projectUrl>
@@ -10,7 +10,7 @@
     <title>Framerizr for ASP.NET MVC</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      Framerizr.MVC lets you easily embed your ASP.NET Razor views inside iframes hosted in external webs with kick-ass auto-height behavior Ajax requests resistant.
+      Framerizr.MVC lets you easily embed your ASP.NET Razor Views inside iframes hosted in external webs with kick-ass auto-height behavior Ajax Requests resistant.
     </description>
     <language>en-US</language>
     <tags>iframe auto-height ASP.NET MVC</tags>

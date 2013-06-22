@@ -43,8 +43,8 @@
     <Content Include="Scripts\easyXDM\easyXDM-2.4.17.1.debug.js" />
     <Content Include="Scripts\easyXDM\easyXDM-2.4.17.1.js" />
     <Content Include="Scripts\easyXDM\easyXDM-2.4.17.1.min.js" />
-    <Content Include="Scripts\framerizr\framerizr-1.0.0.js" />
-    <Content Include="Scripts\framerizr\framerizr.server-1.0.0.js" />
+    <Content Include="Scripts\framerizr\framerizr-1.0.1.js" />
+    <Content Include="Scripts\framerizr\framerizr.server-1.0.1.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="pre-processed\FramerizrController.cs.pp" />
