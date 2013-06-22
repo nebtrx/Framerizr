@@ -6,23 +6,17 @@
     <owners>Omar Ahmed García Pérez</owners>
     <projectUrl>https://bitbucket.org/nebtrx/framerizr</projectUrl>
     <iconUrl>https://bitbucket.org/nebtrx/framerizr/raw/3332b7c78d7340d1edb2078346eecc8c2fcc3602/logo/framerizr32x32.png</iconUrl>
-    <id>Framerizr.Client</id>
-    <title>Framerizr's Client</title>
+    <id>Framerizr.MVC</id>
+    <title>Framerizr for ASP.NET MVC</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-      Client's assets for Framerizr.
+      Framerizr.MVC lets you easily embed your ASP.NET Razor views inside iframes hosted in external webs with kick-ass auto-height behavior Ajax requests resistant.
     </description>
     <language>en-US</language>
-    <tags>iframe auto-height ASP.NET MVC client</tags>
+    <tags>iframe auto-height ASP.NET MVC</tags>
     <dependencies>
-      <dependency id="jQuery" version="1.6.2" />
+      <dependency id="Framerizr.MVC.Server" version="1.0.0" />
+      <dependency id="Framerizr.Client" version="1.0.0" />      
     </dependencies>
   </metadata>
-  <files>
-    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.debug.js" target="content\Scripts\" />
-    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.min.js" target="content\Scripts\" />
-    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.js" target="content\Scripts\" />
-
-    <file src="..\Framerizr\Scripts\framerizr-1.0.0.js" target="content\Scripts\" />
-  </files>
 </package>

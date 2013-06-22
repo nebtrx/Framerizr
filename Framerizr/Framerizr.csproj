@@ -40,21 +40,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\easyXDM-2.4.17.1.debug.js" />
-    <Content Include="Scripts\easyXDM-2.4.17.1.js" />
-    <Content Include="Scripts\easyXDM-2.4.17.1.min.js" />
-    <Content Include="Scripts\framerizr-1.0.0.js" />
-    <Content Include="Scripts\framerizr.server-1.0.0.js" />
+    <Content Include="Scripts\easyXDM\easyXDM-2.4.17.1.debug.js" />
+    <Content Include="Scripts\easyXDM\easyXDM-2.4.17.1.js" />
+    <Content Include="Scripts\easyXDM\easyXDM-2.4.17.1.min.js" />
+    <Content Include="Scripts\framerizr\framerizr-1.0.0.js" />
+    <Content Include="Scripts\framerizr\framerizr.server-1.0.0.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="pre-processed\FramerizrController.cs.pp" />
     <None Include="pre-processed\Index.cshtml.pp" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>nuget pack $(SolutionDir)\nuget-specs\Framerizr.MVC.Server.nuspec -OutputDirectory "D:\DOCUMENTS\Visual Studio 2012\Packages Cache\Framerizr.MVC.Server" -Prop Configuration=$(Configuration)
-nuget pack $(SolutionDir)\nuget-specs\Framerizr.Client.nuspec -OutputDirectory "D:\DOCUMENTS\Visual Studio 2012\Packages Cache\Framerizr.Client" -Prop Configuration=$(Configuration)
-nuget pack $(SolutionDir)\nuget-specs\Framerizr.MVC.nuspec -OutputDirectory "D:\DOCUMENTS\Visual Studio 2012\Packages Cache\Framerizr.MVC" -Prop Configuration=$(Configuration)</PostBuildEvent>
+    <PostBuildEvent>nuget pack $(SolutionDir)\nuget-specs\Framerizr.MVC.Server\Framerizr.MVC.Server.nuspec -OutputDirectory "D:\DOCUMENTS\Visual Studio 2012\Packages Cache\Framerizr.MVC.Server" -Prop Configuration=$(Configuration)
+nuget pack $(SolutionDir)\nuget-specs\Framerizr.Client\Framerizr.Client.nuspec -OutputDirectory "D:\DOCUMENTS\Visual Studio 2012\Packages Cache\Framerizr.Client" -Prop Configuration=$(Configuration)
+nuget pack $(SolutionDir)\nuget-specs\Framerizr.MVC\Framerizr.MVC.nuspec -OutputDirectory "D:\DOCUMENTS\Visual Studio 2012\Packages Cache\Framerizr.MVC" -Prop Configuration=$(Configuration)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
