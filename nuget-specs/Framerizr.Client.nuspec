@@ -5,6 +5,7 @@
     <authors>Omar Ahmed García Pérez</authors>
     <owners>Omar Ahmed García Pérez</owners>
     <projectUrl>https://bitbucket.org/nebtrx/framerizr</projectUrl>
+    <iconUrl>https://bitbucket.org/nebtrx/framerizr/raw/3332b7c78d7340d1edb2078346eecc8c2fcc3602/logo/framerizr32x32.png</iconUrl>
     <id>Framerizr.Client</id>
     <title>Framerizr's Client</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
