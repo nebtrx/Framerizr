@@ -15,8 +15,8 @@
     <language>en-US</language>
     <tags>iframe auto-height ASP.NET MVC</tags>
     <dependencies>
-      <dependency id="Framerizr.MVC.Server" version="1.0.0" />
-      <dependency id="Framerizr.Client" version="1.0.0" />      
+      <dependency id="Framerizr.MVC.Server" version="1.0.1" />
+      <dependency id="Framerizr.Client" version="1.0.1" />      
     </dependencies>
   </metadata>
 </package>
