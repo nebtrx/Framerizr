@@ -59,6 +59,6 @@ Or alternatively you may specified a custom Framerizr URI.
 ### Note:
 * Check out the jQuery reference in `Views/Framerizr/Index.cshtml`. It's default set to jQuery v1.6.2 for surely you'll have another one installed, it's just Murphy's Law. 
 
-```html
+```cshtml
 	<script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")"></script>
 ```
