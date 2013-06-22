@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>Omar Ahmed García Pérez</authors>
+    <owners>Omar Ahmed García Pérez</owners>
+    <projectUrl>https://bitbucket.org/nebtrx/framerizr</projectUrl>
+    <id>Framerizr.Client</id>
+    <title>Framerizr's Client</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Client's assets for Framerizr.
+    </description>
+    <language>en-US</language>
+    <tags>iframe auto-height ASP.NET MVC client</tags>
+    <dependencies>
+      <dependency id="jQuery" version="1.6.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.debug.js" target="content\Scripts\" />
+    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.min.js" target="content\Scripts\" />
+    <file src="..\Framerizr\Scripts\easyXDM-2.4.17.1.js" target="content\Scripts\" />
+
+    <file src="..\Framerizr\Scripts\framerizr-1.0.0.js" target="content\Scripts\" />
+  </files>
+</package>
