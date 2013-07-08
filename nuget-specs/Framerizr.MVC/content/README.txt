@@ -3,9 +3,14 @@ Please see https://bitbucket.org/nebtrx/framerizr/overview for more information 
 Getting started with Framerizr.MVC
 ----------------------------------
 
-Using Framerizr.MVC is easy once installed. You just have to specify the container where you want to iframe an ASP.NET MVC Web Application empowered with Framerizr, e.g.:
+You just have reference the easyXDM and jQuery in the external web
 
-	<div data-iframe-src="http://example. domain.com/" ></div>
+	<script src="http://example.domain.com/Scripts/easyXDM.min.js">  </script> 
+    <script src="http://example.domain.com/Scripts/jquery-1.6.2.js">  </script>
+
+And specify the container where you want to iframe an ASP.NET MVC Web Application empowered with Framerizr, e.g.:
+
+	<div data-iframe-src="http://example.domain.com/" ></div>
 
 Or alternatively you may specified a custom Framerizr URI, e.g.:
 
