@@ -44,7 +44,7 @@ Or alternatively installing the client and server packages as it suits:
 Getting Started
 ---------------
 
-Using Framerizr.MVC is easy once installed. You just have reference the easyXDM and jQuery in the external web
+Using Framerizr.MVC is easy once installed. You just have to reference easyXDM and jQuery in the external web
 
 ```html
 	<script src="http://example.domain.com/Scripts/easyXDM.min.js">  </script> 
