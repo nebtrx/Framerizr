@@ -3,7 +3,7 @@ Please see https://bitbucket.org/nebtrx/framerizr/overview for more information 
 Getting started with Framerizr.MVC
 ----------------------------------
 
-You just have reference the easyXDM and jQuery in the external web
+You just have to reference easyXDM and jQuery in the external web
 
 	<script src="http://example.domain.com/Scripts/easyXDM.min.js">  </script> 
     <script src="http://example.domain.com/Scripts/jquery-1.6.2.js">  </script>
